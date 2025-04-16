@@ -29,6 +29,7 @@ int main(int argc, char *argv[]) {
             perror("my-zip: cannot open file\n");
             exit(1);
         }
+    }        
 
     return(0);
 }
